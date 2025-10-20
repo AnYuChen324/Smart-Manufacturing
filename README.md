@@ -137,10 +137,12 @@ pandasql >= 0.7.3
      ```python
     類別欄位：
     ['Operation_Mode', 'Efficiency_Status', 'Machine_ID']
+     
     數值欄位：
     ['Temperature_C', 'Vibration_Hz', 'Power_Consumption_kW',
      'Network_Latency_ms', 'Packet_Loss_%','Quality_Control_Defect_Rate_%', 
      'Production_Speed_units_per_hr','Predictive_Maintenance_Score', 'Error_Rate_%']
+     
     衍生欄位：
     ['Speed_diff', 'Error_diff',
      'Speed_ma3', 'Error_ma3',
