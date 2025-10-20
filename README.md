@@ -134,6 +134,17 @@ pandasql >= 0.7.3
 統一管理所有路徑、參數、常數，包括：
 - 資料路徑設定
 - 特徵欄位定義
+    類別欄位：
+    ```python
+    ['Operation_Mode', 'Efficiency_Status', 'Machine_ID']
+    數值欄位：
+    ['Temperature_C', 'Vibration_Hz', 'Power_Consumption_kW',
+     'Network_Latency_ms', 'Packet_Loss_%','Quality_Control_Defect_Rate_%', 
+     'Production_Speed_units_per_hr','Predictive_Maintenance_Score', 'Error_Rate_%']
+    衍生欄位：
+    ['Speed_diff', 'Error_diff',
+     'Speed_ma3', 'Error_ma3',
+     'Speed_std3', 'Error_std3']
 - 模型參數空間
 - PSO 設定
 - 隨機種子與 CV 折數
